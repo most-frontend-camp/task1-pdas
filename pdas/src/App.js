@@ -5,10 +5,9 @@ function App() {
         <div>
             <div>Personal Digital Assistants</div>
 
-            <ProfileCard />
-            <ProfileCard />
-            <ProfileCard />
-
+            <ProfileCard title = "Alexa " handle = "@alexa2022" />
+            <ProfileCard title = "Cortana " handle = "@cortana2023" />
+            <ProfileCard title = "Siri " handle = "@siri2024" />
         </div>
     );
 }
